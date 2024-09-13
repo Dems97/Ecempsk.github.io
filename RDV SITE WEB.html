@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendez-vous - [Ton Nom]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #444;
+            background: linear-gradient(to right, #f9f4d6, #f1e3d3);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #ffffff;
+            color: #333;
+            padding: 1rem;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        a {
+            color: #ff6f61;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .calendar-container {
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 800px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        iframe {
+            border: 0;
+            width: 100%;
+            height: 600px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rendez-vous - [Ton Nom]</h1>
+        <nav>
+            <a href="index.html">Retour à l'accueil</a>
+        </nav>
+    </header>
+
+    <div class="calendar-container">
+        <h2>Calendrier de Rendez-vous</h2>
+        <p>Veuillez consulter le calendrier ci-dessous pour choisir un créneau horaire disponible :</p>
+        <iframe src="[URL du calendrier Google intégré]" frameborder="0" scrolling="no"></iframe>
+    </div>
+</body>
+</html>
