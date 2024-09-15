@@ -45,7 +45,7 @@
         }
         nav a:hover {
             text-decoration: underline;
-            transform: scale(1.5,1.5);
+            transform: scale(1.5);
         }
         section {
             padding: 2rem;
@@ -61,10 +61,10 @@
             margin-bottom: 1rem;
         }
         .image-container img {
-            max-width: 50%; /* Réduit la taille de l'image à 50% de la largeur du conteneur */
-            max-height: 50%; /* Réduit la taille de l'image à 50% de la hauteur du conteneur */
+            max-width: 50%;
+            max-height: 50%;
             border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Ajoute une ombre subtile à l'image */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         }
         h2 {
             color: #efcc77;
@@ -114,13 +114,13 @@
         }
         .section-title {
             text-align: center;
-            font-size: 1rem; /* Ajuste la taille selon tes besoins */
-            color: #feb80c; /* Change la couleur du texte si nécessaire */
-            margin: 1rem 0; /* Ajuste la marge selon tes besoins */
+            font-size: 1rem;
+            color: #feb80c;
+            margin: 1rem 0;
         }
         .parisienne-regular {
             font-family: "Parisienne", cursive;
-            font-weight: bold; /* Utilisez font-weight pour définir le gras */
+            font-weight: bold;
         }
         .caveat-regular {
             font-family: "Caveat", cursive;
@@ -129,20 +129,20 @@
             font-style: normal;
         }
         .cadre-texte-avance {
-            border: 1.5px solid #ceb985; /* Bordure du cadre */
-            padding: 15px; /* Espace entre le texte et la bordure */
-            margin: 25px; /* Espace autour du cadre */
-            background-color: #f9f4e8; /* Couleur de fond du cadre #f6eeda */
-            border-radius: 12px; /* Coins arrondis du cadre */
-            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); /* Ombre portée */
+            border: 1.5px solid #ceb985;
+            padding: 15px;
+            margin: 25px;
+            background-color: #f9f4e8;
+            border-radius: 12px;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
             text-align: justify;
             text-align-last: left;
         }
         .justify {
             text-align: justify;
-            font-size: 1rem; /* Ajuste la taille selon tes besoins */
-            color: #000000; /* Change la couleur du texte si nécessaire */
-            margin: 1rem 0; /* Ajuste la marge selon tes besoins */
+            font-size: 1rem;
+            color: #000000;
+            margin: 1rem 0;
         }
         .bigger-text {
             font-size: 1.5rem;
@@ -161,22 +161,20 @@
             border-radius: 6px;
             cursor: pointer;
             font-weight: bold;
-            text-decoration: none; /* Retire le souligné par défaut pour les liens */
-            display: inline-block; /* Assure que le lien ressemble à un bouton */
+            text-decoration: none;
+            display: inline-block;
         }
-            .social-buttons {
+        .social-buttons {
             display: flex;
             justify-content: center;
             gap: 1rem;
         }
         .social-button {
-            display: inline-flex;
+            display: flex;
             align-items: center;
             justify-content: center;
-            width: 40px;
-            height: 40px;
-            background-color: #efcc77;
-            color: #ffffff;
+            width: 50px;
+            height: 50px;
             border: none;
             border-radius: 50%;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -187,10 +185,9 @@
             background-color: #e55d50;
         }
         .social-button img {
-            width: 20px;
-            height: 20px;
+            width: 24px; /* Ajuste la taille de l'image SVG */
+            height: 24px; /* Ajuste la taille de l'image SVG */
         }
-
     </style>
 </head>
 <body>
@@ -236,10 +233,10 @@
         <h2 class="section-title italic underlined bigger-text">İletişim</h2>
         <p>Benimle doğrudan e-posta yoluyla da iletişime geçebilirsiniz <a class="button" href="mailto:psk.ecem.knls@gmail.com">Buraya tıklayınız</a>.</p>
         <p>Beni sosyal ağlarda takip edin :</p>
-         <div class="social-buttons">
+        <div class="social-buttons">
             <a href="https://www.linkedin.com/in/ecemkanlısoy/" target="_blank" class="social-button">
                 <!-- Icône LinkedIn SVG -->
-                <img src ="https://upload.wikimedia.org/wikipedia/commons/f/f9/Linkedin_Shiny_Icon.svg" alt="LinkedIn" >     
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Linkedin_Shiny_Icon.svg" alt="LinkedIn">
             </a>
             <a href="https://www.instagram.com/psk.ecemkanlisoy/#" target="_blank" class="social-button">
                 <!-- Icône Instagram SVG -->
