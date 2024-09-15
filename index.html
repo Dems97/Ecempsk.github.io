@@ -147,6 +147,9 @@
         .bigger-text {
             font-size: 1.5rem;
         }
+        .center{
+            text-align: center;
+        }
         .italic {
             font-style: italic;
         }
@@ -155,7 +158,7 @@
         }
         .button {
             padding: 0.75rem;
-            background-color: #efcc77;
+            background-color: #ebdfc6;
             color: #ffffff;
             border: none;
             border-radius: 6px;
@@ -163,6 +166,9 @@
             font-weight: bold;
             text-decoration: none;
             display: inline-block;
+        }
+        .button:hover {
+            background-color: #e5b650f6;
         }
         .social-buttons {
             display: flex;
@@ -182,7 +188,7 @@
             transition: background-color 0.3s ease;
         }
         .social-button:hover {
-            background-color: #e55d50;
+            background-color: #e5b650f6;
         }
         .social-button img {
             width: 24px; /* Ajuste la taille de l'image SVG */
@@ -195,10 +201,10 @@
         <h1 class="parisienne-regular">Ecem Kanlısoy</h1>
         <h2 class="caveat-regular">Psikolog | Aile Danışmanı</h2>
         <nav>
-            <a href="#about">Hakkımda</a>
-            <a href="#services">Hizmetler</a>
-            <a href="rendez-vous.html">Randevu</a>
-            <a href="#contact">İletişim</a>
+            <a class="button" href="#about">Hakkımda</a>
+            <a class="button" href="#services">Hizmetler</a>
+            <a class="button" href="rendez-vous.html">Randevu</a>
+            <a class="button" href="#contact">İletişim</a>
         </nav>
     </header>
     
@@ -232,7 +238,7 @@
     <section id="contact">
         <h2 class="section-title italic underlined bigger-text">İletişim</h2>
         <p>Benimle doğrudan e-posta yoluyla da iletişime geçebilirsiniz <a class="button" href="mailto:psk.ecem.knls@gmail.com">Buraya tıklayınız</a>.</p>
-        <p>Beni sosyal ağlarda takip edin :</p>
+        <p class= "center">Beni sosyal ağlarda takip edin :</p>
         <div class="social-buttons">
             <a href="https://www.linkedin.com/in/ecemkanlısoy/" target="_blank" class="social-button">
                 <!-- Icône LinkedIn SVG -->
