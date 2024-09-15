@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Parisienne&display=swap" rel="stylesheet">
@@ -7,7 +7,7 @@
     <title>Psikolog | Aile Danışmanı - Ecem Kanlısoy</title>
     <style>
         body {
-            font-family: 'helvetica', Arial, sans-serif;
+            font-family: 'Helvetica', Arial, sans-serif;
             margin: 0;
             padding: 0;
             color: #444;
@@ -25,14 +25,13 @@
         }
         header h1 {
             margin: 0;
-            font-size: 20px;
+            font-size: 100px;
             color: #7b5c28;
         }
         header h2 {
             margin: 0;
-            font-size: 15px;
+            font-size: 75px;
             color: #ae8239;
-            
         }
         nav {
             margin-top: 0.5rem;
@@ -44,7 +43,6 @@
             font-weight: bold;
             transition: transform 0.3s ease;
         }
-        
         nav a:hover {
             text-decoration: underline;
             transform: scale(1.5);
@@ -63,8 +61,8 @@
             margin-bottom: 1rem;
         }
         .image-container img {
-            max-width: 50%; /* Réduit la taille de l'image à 80% de la largeur du conteneur */
-            max-height: 50%
+            max-width: 50%; /* Réduit la taille de l'image à 50% de la largeur du conteneur */
+            max-height: 50%; /* Réduit la taille de l'image à 50% de la hauteur du conteneur */
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Ajoute une ombre subtile à l'image */
         }
@@ -114,43 +112,40 @@
         footer .social-links a:hover {
             text-decoration: underline;
         }
-         .section-title {
+        .section-title {
             text-align: center;
             font-size: 1rem; /* Ajuste la taille selon tes besoins */
             color: #feb80c; /* Change la couleur du texte si nécessaire */
             margin: 1rem 0; /* Ajuste la marge selon tes besoins */
         }
-        
         .parisienne-regular {
-          font-family: "Parisienne", cursive;
-          font-weight: 400;
-          font-style: bold;
+            font-family: "Parisienne", cursive;
+            font-weight: bold; /* Utilisez font-weight pour définir le gras */
         }
         .caveat-regular {
-        font-family: "Caveat", cursive;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
+            font-family: "Caveat", cursive;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
         }
-
         .cadre-texte-avance {
             border: 1.5px solid #ceb985; /* Bordure du cadre */
             padding: 15px; /* Espace entre le texte et la bordure */
             margin: 25px; /* Espace autour du cadre */
-            background-color: #f9f4e8 ; /* Couleur de fond du cadre #f6eeda */
+            background-color: #f9f4e8; /* Couleur de fond du cadre #f6eeda */
             border-radius: 12px; /* Coins arrondis du cadre */
             box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); /* Ombre portée */
             text-align: justify;
             text-align-last: left;
         }
         .justify {
-         text-align: justify;
+            text-align: justify;
             font-size: 1rem; /* Ajuste la taille selon tes besoins */
             color: #000000; /* Change la couleur du texte si nécessaire */
             margin: 1rem 0; /* Ajuste la marge selon tes besoins */
-        }   
+        }
         .bigger-text {
-            font-size : 1.5rem;
+            font-size: 1.5rem;
         }
         .italic {
             font-style: italic;
@@ -158,13 +153,23 @@
         .underlined {
             text-decoration: underline;
         }
-        
+        .button {
+            padding: 0.75rem;
+            background-color: #efcc77;
+            color: #ffffff;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: none; /* Retire le souligné par défaut pour les liens */
+            display: inline-block; /* Assure que le lien ressemble à un bouton */
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1 class = "parisienne-regular" > Ecem Kanlısoy</h1>
-        <h2 class = "caveat-regular">Psikolog | Aile Danışmanı</h2>
+        <h1 class="parisienne-regular">Ecem Kanlısoy</h1>
+        <h2 class="caveat-regular">Psikolog | Aile Danışmanı</h2>
         <nav>
             <a href="#about">Hakkımda</a>
             <a href="#services">Hizmetler</a>
@@ -175,19 +180,16 @@
     
     <section id="about">
         <h2 class="section-title bigger-text underlined">Hakkımda</h2>
-        <div class="image-container ">
+        <div class="image-container">
             <img src="https://cdn.discordapp.com/attachments/1207057355280359506/1284954704140435546/image.png?ex=66e882d2&is=66e73152&hm=c5a3bf137bc19cc0e4da42865e7c908a0341ca22a290f8b6084bd4611d88b49a&" alt="Illustration de Ecem Kanlısoy">
         </div>
-        <p class = "cadre-texte-avance" >
-            <p>İstinye Üniversitesi'nde Psikoloji (İngilizce) lisans programını okurken aynı zamanda Dil ve Konuşma Terapisi yan-dal programını başarıyla bitirdim. Biruni Üniversitesi'nden 450 saatlik Aile Danışmanlığı eğitimi aldım. 
-2024 yılında İstanbul Üniversitesi Cerrahpaşa'nın Pedagojik Formasyon programını tamamladım. Çeşitli kliniklerde stajlarımı gerçekleştirdim. Fransız Lape Hastanesi'nde Klinik Psikoloji eğitimi alarak psikiyatri ve hastane gözlemi yapma fırsatı elde ettim. EKT işleminin uygulanmasını deneyimlemiş oldum. 
-Aile Danışmanı olarak Süpervizyon sürecinden geçtim ve Mayıs 2023'ten beri aktif olarak danışan görmekteyim. Bunların dışında aldığım eğitimler: Çocuk ve Ergenlerde Bilişsel Davranışçı Terapi, Çocuk İstismarı Tanı ve Müdahale Eğitimi, Afet Psikolojik Destek Eğitimi.
- </p>
+        <p class="cadre-texte-avance">
+            İstinye Üniversitesi'nde Psikoloji (İngilizce) lisans programını okurken aynı zamanda Dil ve Konuşma Terapisi yan-dal programını başarıyla bitirdim. Biruni Üniversitesi'nden 450 saatlik Aile Danışmanlığı eğitimi aldım. 2024 yılında İstanbul Üniversitesi Cerrahpaşa'nın Pedagojik Formasyon programını tamamladım. Çeşitli kliniklerde stajlarımı gerçekleştirdim. Fransız Lape Hastanesi'nde Klinik Psikoloji eğitimi alarak psikiyatri ve hastane gözlemi yapma fırsatı elde ettim. EKT işleminin uygulanmasını deneyimlemiş oldum. Aile Danışmanı olarak Süpervizyon sürecinden geçtim ve Mayıs 2023'ten beri aktif olarak danışan görmekteyim. Bunların dışında aldığım eğitimler: Çocuk ve Ergenlerde Bilişsel Davranışçı Terapi, Çocuk İstismarı Tanı ve Müdahale Eğitimi, Afet Psikolojik Destek Eğitimi.
+        </p>
     </section>
     
     <section id="services">
-        <h2 class="section-title italic underlined"> Hizmetler</h2>
-
+        <h2 class="section-title italic underlined">Hizmetler</h2>
         <ul>
             <li>Bireysel danışmanlık</li>
             <li>Aile ve Çift Danışmanlığı</li>
@@ -204,7 +206,7 @@ Aile Danışmanı olarak Süpervizyon sürecinden geçtim ve Mayıs 2023'ten ber
     </section>
     
     <section id="contact">
-       <h2 class="section-title italic underlined">İletişim</h2>
+        <h2 class="section-title italic underlined">İletişim</h2>
         <p>Benimle doğrudan e-posta yoluyla da iletişime geçebilirsiniz <a href="mailto:psk.ecem.knls@gmail.com">Buraya tıklayınız</a>.</p>
         <p>Beni sosyal ağlarda takip edin :</p>
         <div class="social-links">
@@ -218,4 +220,3 @@ Aile Danışmanı olarak Süpervizyon sürecinden geçtim ve Mayıs 2023'ten ber
     </footer>
 </body>
 </html>
-
