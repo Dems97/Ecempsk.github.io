@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Psykolog | Psykoterapist | Aile ve çift danışmanı  - Ecem Kanlısoy]</title>
+    <title>Psykolog | Psykoterapist | Aile ve çift danışmanı - Ecem Kanlısoy</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -26,6 +26,11 @@
             margin: 0;
             font-size: 2rem;
         }
+        header h2 {
+            margin: 0;
+            font-size: 1.25rem;
+            color: #ff6f61;
+        }
         nav {
             margin-top: 0.5rem;
         }
@@ -46,10 +51,16 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        section img {
-            max-width: 100%;
-            border-radius: 8px;
+        .image-container {
+            display: flex;
+            justify-content: center;
             margin-bottom: 1rem;
+        }
+        .image-container img {
+            max-width: 80%; /* Réduit la taille de l'image à 80% de la largeur du conteneur */
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Ajoute une ombre subtile à l'image */
         }
         h2 {
             color: #ff6f61;
@@ -101,10 +112,10 @@
 </head>
 <body>
     <header>
-        <h1> Ecem Kanlısoy </h1>
-        <h2> Psykolog | Psykoterapist | Aile ve çift danışmanı </h2>
+        <h1>Ecem Kanlısoy</h1>
+        <h2>Psykolog | Psykoterapist | Aile ve çift danışmanı</h2>
         <nav>
-            <a href="#about">Benim hakkımda </a>
+            <a href="#about">Benim hakkımda</a>
             <a href="#services">Servisler</a>
             <a href="rendez-vous.html">Randevular</a>
             <a href="#contact">İletişim</a>
@@ -113,8 +124,11 @@
     
     <section id="about">
         <h2>About me</h2>
-        <img src="https://cdn.discordapp.com/attachments/1207057355280359506/1284930394658967602/image.png?ex=66e86c2e&is=66e71aae&hm=f46e04cd685d7582673fc71cdc919189c7a4ef5f68b838313e3a35dcf7c229e4&" alt="Illustration de [Ton Nom]">
-        <p>Merhaba, ben Psikolog Ecem Kanlısoy, 24 yasındayım. Ben tutkulu bir Psikolog, Psykoterapist, aile ve çift danışmanı. İki yıldır çevrimiçi terapiler uyguluyorum. </p>
+        <div class="image-container">
+            <img src="https://cdn.discordapp.com/attachments/1207057355280359506/1284930394658967602/image.png?ex=66e86c2e&is=66e71aae&hm=f46e04cd685d7582673fc71cdc919189c7a4ef5f68b838313e3a35dcf7c229e4&" alt="Illustration de Ecem Kanlısoy">
+        </div>
+        <p>Merhaba, ben Psikolog Ecem Kanlısoy, 24 yasındayım. Ben tutkulu bir Psikolog, Psykoterapist, aile ve çift danışmanı. İki yıldır çevrimiçi terapiler uyguluyorum.</p>
+    </section>
     
     <section id="services">
         <h2>Services</h2>
@@ -129,16 +143,24 @@
     </section>
     
     <section id="appointments">
-        <h2>Rendevu al </h2>
-        <p>Randevu almak için, benim google takvimime bakın lütfen.</p>
+        <h2>Randevu al</h2>
+        <p>Randevu almak için, benim Google takvimime bakın lütfen.</p>
         <a href="rendez-vous.html" class="button">Takvimim göster</a>
-
+    </section>
     
     <section id="contact">
         <h2>İletişim</h2>
-        <p>Benimle doğrudan e-posta yoluyla da iletişime geçebilirsiniz <a href="mailto:psk.ecem.knls@gmail.com">Buraya tıklayınız </a>.</p>
+        <p>Benimle doğrudan e-posta yoluyla da iletişime geçebilirsiniz <a href="mailto:psk.ecem.knls@gmail.com">Buraya tıklayınız</a>.</p>
         <p>Beni sosyal ağlarda takip edin :</p>
         <div class="social-links">
             <a href="https://www.linkedin.com/in/ecemkanlısoy/" target="_blank">LinkedIn</a>
             <a href="https://www.instagram.com/psk.ecemkanlisoy/#" target="_blank">Instagram</a>
-           
+        </div>
+    </section>
+    
+    <footer>
+        <p>© 2024 Ecem Kanlısoy. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
+
