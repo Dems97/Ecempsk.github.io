@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Parisienne&display=swap" rel="stylesheet">
     <title>Randevu - Psk. Ecem </title>
     <style>
         body {
@@ -80,10 +81,26 @@
 
     <div class="calendar-container">
         <h2 class ="caveat-regular">Randevu Takvimim</h2>
-        <p> Uygun bir zaman aralığı seçmek için lütfen takvimim bakın : </p>
+        <p> Uygun bir zaman dilimi sormak için lütfen ajandama bakın : </p>
     
         <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FIstanbul&bgcolor=%23f4f0b9&showPrint=0&showTitle=0&showCalendars=0&src=cHNrLmVjZW0ua25sc0BnbWFpbC5jb20&color=%23039BE5" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
        
     </div>
+    <section>
+        <h2> Uygun bir zaman aralığı isteyin </h2>
+        <p>Veya lütfen aşağıdaki formu doldurun. Müsaitlik durumunu teyit etmek için sizinle iletişime geçeceğim :</p>
+        <form action="mailto:ton.email@gmail.com" method="post" enctype="text/plain">
+            <label for="name">İsim :</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mesaj:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Gönder</button>
+        </form>
+    </section>
 </body>
 </html>
