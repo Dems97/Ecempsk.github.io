@@ -69,13 +69,53 @@
         .center{
             text-align: center;
         }
+         form {
+            display: flex;
+            flex-direction: column;
+        }
+        form label {
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        form input, form textarea {
+            padding: 0.75rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+        }
+        form button {
+            padding: 0.75rem;
+            background-color: #ebdfc6;
+            color: #ffffff;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        form button:hover {
+            background-color: #e5b650f6;
+        }
+           .button {
+            padding: 0.75rem;
+            background-color: #ebdfc6;
+            color: #ffffff;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .button:hover {
+            background-color: #e5b650f6;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1 class="parisienne-regular">Randevular - Psk. Ecem </h1>
         <nav>
-            <a href="index.html">Ev</a>
+            <a class="button" href="index.html">Ev</a>
         </nav>
     </header>
 
