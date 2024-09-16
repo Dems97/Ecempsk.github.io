@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Appointments - Psk. Ecem </title>
+    <title>Randevu - Psk. Ecem </title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             color: #444;
-            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            background: linear-gradient(to top, #ffeccc, #f9bb53);
             display: flex;
             flex-direction: column;
             min-height: 100vh;
@@ -22,9 +22,16 @@
             text-align: center;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+     
         header h1 {
             margin: 0;
-            font-size: 2rem;
+            font-size: 60px;
+            color: #7b5c28;
+        }
+        header h2 {
+            margin: 0;
+            font-size: 40px;
+            color: #ae8239;
         }
         a {
             color: #ff6f61;
@@ -48,19 +55,32 @@
             height: 600px;
             border-radius: 8px;
         }
+           .parisienne-regular {
+            font-family: "Parisienne", cursive;
+            font-weight: bold;
+        }
+        .caveat-regular {
+            font-family: "Caveat", cursive;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .center{
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Availabilities - Psk. Ecem </h1>
+        <h1 class="parisienne-regular">Randevular - Psk. Ecem </h1>
         <nav>
-            <a href="index.html">Home</a>
+            <a href="index.html">Ev</a>
         </nav>
     </header>
 
     <div class="calendar-container">
-        <h2>Appointments Agenda</h2>
-        <p> Please, see the agenda to pick an available time slot : </p>
+        <h2 class ="caveat-regular">Randevu Takvimim</h2>
+        <p> Uygun bir zaman aralığı seçmek için lütfen takvimim bakın : </p>
     
         <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FIstanbul&bgcolor=%23f4f0b9&showPrint=0&showTitle=0&showCalendars=0&src=cHNrLmVjZW0ua25sc0BnbWFpbC5jb20&color=%23039BE5" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
        
